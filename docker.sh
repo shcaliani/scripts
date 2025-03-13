@@ -45,7 +45,16 @@
 > vim teste.txt                   # criando um arquivo no ubunto do container
 > exit                            # sai do container
 
-|| listar containers
+🔺 listar containers
+
+▶️ listar containers
+
+🔶 listar containers
+
+♦️ listar containers
+
+⚪️ listar containers
+
 
 > docker ps                       # containers ativos
 
