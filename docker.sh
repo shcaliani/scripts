@@ -25,7 +25,6 @@
 > docker system prune                               | limpar o system
 
 
-
 ⭕ PASSO A PASSO
 
 > docker version                  # versão do docker
@@ -45,48 +44,45 @@
 > vim teste.txt                   # criando um arquivo no ubunto do container
 > exit                            # sai do container
 
-🔺 listar containers
-
-▶️ listar containers
 
 🔶 listar containers
-
-♦️ listar containers
-
-⚪️ listar containers
-
 
 > docker ps                       # containers ativos
 
 > docker ps -a                    # todos os containers que já rodaram
 
-|| parar containers
+
+🔶 parar containers
 
 > docker stop <container id>     # utilizado quando container não está no terminal
 
-|| expor a porta para se conectar com o container
+
+🔶 expor a porta para se conectar com o container
 
 > docker run -d -p 80:80 nginx
 
 # se acessar o browser e acessar ˜localhost" vai visualizar o nginx deste container
 
 
-|| reinicializar um container     # id ou nome do container
+🔶 reinicializar um container     # id ou nome do container
 
 docker start <id container> 
 
-|| logs
+
+🔶 logs
 
 > docker logs <container name ou id>
 
-|| remover containers
+
+🔶 remover containers
 
 # de stop no container para remover
 
 > docker rm <container name ou id> 
 > docker rm <container name ou id> -f             # força a parada e remoção do container
 
-|| criando uma imagem
+
+🔶 criando uma imagem
 
 |--- arquivo index.js
 
@@ -119,7 +115,8 @@ EXPOSE 3000
 # executar o comando
 CMD ["NODE", "INDEX.JS"]
 
-|| contruindo a imagem
+
+🔶 contruindo a imagem
 
 > docker build .                        # precisa ter o dockerfile no diretório que cria-se a imagem
 
@@ -130,19 +127,21 @@ CMD ["NODE", "INDEX.JS"]
 no navegador [localrost:3000
 ...'ola docker!'
 
-|| nomear uma imagem
+
+🔶 nomear uma imagem
 
 > docker build -t <image name> . 
 
 > docker run -d -p 3000:3000 --name node-docker-2  <image name>   # imagem rodando no container node-docker-2
 
-|| remover imagem
+
+🔶 remover imagem
 
 # parar o container que está utilizando a imagem
 
 >  docker rmi <image name>
 
-|| remover o que não está se utilizando
+🔶 remover o que não está se utilizando
 
 > docker system prune
 
