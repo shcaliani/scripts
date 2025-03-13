@@ -1,4 +1,4 @@
-🟥 VENV dicas 🟥
+🟨🟨 VENV  
 
 ||| criando uma venv dentro do diretório do projeto
 
