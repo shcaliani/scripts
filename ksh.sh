@@ -1,18 +1,14 @@
 🟨🟨 KSH
 
-'---------------------------------
- -- instalar o 'oh myz.sh       --
- ---------------------------------'
+⭕ INSTALAR
 
 https://ohmyz.sh
 https://www.youtube.com/watch?v=bs1-Wxb_KIc
 
 Control Z - quit()- exit()		| sai do pronpt do Python 
 
-'---------------------------------
- -- personalizando ksh e oh ksh --
- ---------------------------------'
- 
+⭕ PERSONALIZAR
+
 ksh                                               | um dos shell  disponíveis  
 oh ksh                                            | configurador ksh
 echo $SHELL                                       | qual versão shell que estou usando
@@ -28,3 +24,4 @@ zsh version                                       | versão zsh
 sudo apt update                                   | atualiza pacotes
 sudo apt ugrade                                   | atualiza pacotes
  
+# end
