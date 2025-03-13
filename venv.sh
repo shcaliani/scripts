@@ -1,18 +1,22 @@
 🟨🟨 VENV  
 
-||| criando uma venv dentro do diretório do projeto
+⭕️ CRIANDO
+
+🔶 criando uma venv dentro do diretório do projeto
 
 'verificar se é preciso atualizar o pip [ver pip_dicas]'
 python3.10 -m venv .venv     'no macos'
 python     -m venv .venv     'no windows'
 'no pycharm - clique na pasta do projeto, e ele atualizara a pasta e fara o updating'
- 
-||| deletando uma venv - criar outra para, por exemplo, atualizar a versão do Python
 
+⭕️ DELETANDO VENV
+
+> criar outra para, por exemplo, atualizar a versão do Python
 rm -rf .venv  
 deactivate           'no terminal'
 
-||| começando um projeto
+
+⭕️ INICIANDO UM PROJETO
 
 1. cria o diretório
 2. abre o diretório no VSCode
@@ -25,3 +29,5 @@ deactivate           'no terminal'
 5. cria o arquivo do script
     |touch nome_arq.py
 Go!   
+
+# end
