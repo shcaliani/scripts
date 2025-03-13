@@ -1,4 +1,4 @@
-🟥 GIT Comands 🟥  
+🟨🟨 GIT    
 
 '--------------
  --- config ---
@@ -138,24 +138,37 @@ git tag -d 1.0.1                                        | apagando no repositór
 git push origin :1.0.0                                  | apagando no repositório remoto
 git push origin :nome_branch
 
+'------------------------------------------
+ -- Subir um diretório local para Github --
+ ------------------------------------------'
+
+cria diretório no Github                                 | via browser no Github
+git init                                                 | no terminal e diretório a ser feito upload
+git add .                                                | git status mostra arquivos adicionados
+git commit -m "msg"                                      | git status mostra aquivos comitados
+git branch -M main    
+
 
 '--------------
  -- Branches --
  --------------'
 
+git branch                                              | ver a branch logada
+git checkout                                            | sai da branch
+git checkout <nome_branch>                              | para mudar de branch
+git checkout -b <nova branch>                           | sai da branch e cria uma nova
+git checkout nome-novo                                  | redefina o branch upstream para o branch local nome-novo
+git merge <nome branch> (que não estou logado)          | faz o merge da branch atual com a outra
+git push
 git checkout -b nome_branch                             | criando um branch
 it push -u origin nome_branch                           | sobre branch para repositório remoto
-
-git branch                                              | quais existem e qual está no momento
-git checkout nome_branch                                | para mudar de branch
 
 git branch -m nome-novo                                 | alterar nome da branch estando na mesma
 git branch -m nome-antigo nome-novo                     | alterar nome da branch estando em outra
 git push origin :nome-antigo nome-novo                  | remova branch remoto com o nome antigo e crie o branch novo
-git checkout nome-novo                                  | redefina o branch upstream para o branch local nome-novo
 git push origin -u nome-novo                            | execute
 
-git branch -d nome_branch                               | exclui branch local apenas se já fez push ou merge com branch remoto
+git branch -d nome_branch                               | exclui branch local se já fez push ou merge com branch remoto
 git branch -D nome_branch                               | exclui o branch independente de seu status de push ou merge
 git push origin :nome_do_branch_remoto                  | excluir um branch remoto
 
