@@ -1,7 +1,7 @@
 🟨🟨 DOCKER  
 
 ||| comandos docker
-
+⭕ comandos docker
 
 > docker version                                    | versão do docker
 > docker image ls                                   | lista todas as imagens que existem
