@@ -1,5 +1,7 @@
 🟨🟨 SHELL 
 
+⭕️ COMANDOS
+
 ls -la  | lista arquivos diretório
 ls      | lista arquivos
 ll      | lista arquivos do diretório
@@ -30,5 +32,4 @@ time    | Na frente do comando, monitorar o tempo de execução nas dimensões [
 cut     | Corta o texto conforme definiçao [cut -c2]
 ps      | Lista os processos      [ps | cut -c7]
 
-⭕️⭕️⭕️
-
+# end
