@@ -1,4 +1,4 @@
-🟥 SHELL Comands 🟥
+🟨🟨 SHELL 
 
 ls -la  | lista arquivos diretório
 ls      | lista arquivos
@@ -32,9 +32,3 @@ ps      | Lista os processos      [ps | cut -c7]
 
 ⭕️⭕️⭕️
 
-🔸 Instalar o oh myz.sh
-
-https://ohmyz.sh
-https://www.youtube.com/watch?v=bs1-Wxb_KIc
-
-Control Z - quit()- exit()		| sai do pronpt do Python 
