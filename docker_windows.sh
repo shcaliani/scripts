@@ -1,3 +1,5 @@
+🟨🟨 DOCKER Windows 
+
 :  executa a sequência deste post no terminal como administrador
 
 https://github.com/codeedu/wsl2-docker-quickstart#docker-engine-docker-nativo-diretamente-instalado-no-wsl2
