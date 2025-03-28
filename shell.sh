@@ -9,8 +9,9 @@ df      | Mostra a quantidade de espaço usada no disco rígido.
 top     | Mostra o uso da memória.
 cd      | Acessa uma determinada pasta (diretório)
 mkdir   | Cria um diretório.
-rmdir   | Apaga um diretorio
-rm      | Remove um arquivo/diretório.
+rmdir   | Apaga um diretorio vazio
+rm -r   | Remove diretório não vazio
+rm      | Remove um arquivo
 cat     | Abre um arquivo.
 cp      | Copia arquivos
 diff    | Compara o conteúdo de dois arquivos ASCII
