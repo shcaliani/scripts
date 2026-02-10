@@ -1,4 +1,4 @@
-# MANUAL ESSENCIAL
+# 📙 MANUAL MARKDOWN
 
 > A extensão padrão de arquivos Markdown é:
 .md
@@ -54,6 +54,11 @@ def hello():
 
 > Utilize `|' para separar as colunas, que serão ajustadas automaticamente
 
+>Alinhamentos:
+Utilize par alinhar `:--- esquerda`
+                    `---: direita`
+                    `:---: centro`
+
 <br>
 
 ### 🏷️ Citação (blockquote)
@@ -63,10 +68,7 @@ def hello():
 
 <br>
 
-### 🏷️ Saltar linha
-> Utilize `<br>`
 
-<br>
 ### 🏷️ Badges (opcional, comum em GitHub)
 
 `![Python](https://img.shields.io/badge/Python-3.11-blue)`
@@ -144,17 +146,65 @@ no HTML seria assim, visível no ReadMe para cores
 > TODO
 > FIXME
 
+<br>
+
+### 🏷️ Detalhes recolhíveis
 
 <details>
 <summary>Clique para expandir</summary>
 
 Conteúdo escondido aqui dentro.
-
 Pode ter **Markdown normal**.
-
 </details>
 
+<br>
+
+### 🏷️ HTML e Markdown
+>
+
+| código | efeito |
+|------|-----------|
+| `<br>` | quebra de linha |
+| `<sub>` | texto subscrito |
+| `<sup>` | texto sobrescrito |
+| `<kbd>` | teclas |
+| `<details>` | conteúdo recolhível |
+| `---` | traço divisor |
+
+> Exemplo
+<br>
+H<sub>2</sub>O  
+x<sup>2</sup>
+<br>
 
 
 
 
+
+
+
+
+
+### 🏷️ Blocos de diff 
+> Ótimo para documentação técnica
+> Utilizando ` ```diff e ```markdown `
+
+> Renderiza com cores de adição/remoção.
+
+```diff
++ Linha adicionada
+- Linha removida
+```
+
+GitHub agora suporta:
+
+```markdown
+> [!NOTE]
+> Informação importante
+
+> [!WARNING]
+> Atenção redobrada
+
+> [!TIP]
+> Dica útil
+```
