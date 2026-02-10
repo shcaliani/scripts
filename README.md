@@ -1,9 +1,12 @@
-# SCRIPTS
+# 🧰 Automation Scripts Collection
 
-## Manual de instruções
+## 📖 Sobre o projeto
 
-___
+Coleção de scripts em **Python**, **Shell** e automações para **GitHub**, focados em produtividade e padronização de tarefas.
 
-### Aqui você encontra eBooks com definições e conceitos. 
+**Este repositório inclui:**
+- 🐍 Scripts Python para automação e integração com APIs  
+- 💻 Scripts Shell para rotinas locais e DevOps  
+- ⚙️ Exemplos de GitHub Actions e templates  
 
-### Sumários para estudo
+👉 Veja a documentação completa no reposítório
