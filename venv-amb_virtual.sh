@@ -1,26 +1,30 @@
-||| Acesse a pasta do Projeto
+🟨🟨 VENV - AMBIENTE VIRTUAL 
+
+⭕ Instalando 
+
+> Acesse a pasta do Projeto
 
 cd caminho/da/sua/pasta
 
-||| Criando o ambiente virtual
+> Criando o ambiente virtual
 
 python -m venv .venv
 
-||| Ativando o ambiente
+> Ativando o ambiente
 
 source .venv/bin/activate 
 
-||| Desativando o ambiente
+> Desativando o ambiente
 
 deactivate
 
 
-> Importante:
+⭕ Importante:
   Quando o ambiente está ativo, o nome (.venv) 
   aparecerá no início da linha do seu terminal.
   
   
-||| Comandos úteis
+⭕ Comandos úteis
 
 > instalar um pacote
   pip install nome-do-pacote
@@ -32,9 +36,9 @@ deactivate
   pip freeze > requirements.txt
 
 
-||| No VSCode
+⭕ No VSCode
 
-|| Configuração automática
+> Configuração automática
 
 Para garantir que o VS Code sempre lembre disso e até já abra o terminal com o ambiente ativado, 
 você pode criar um arquivo de configuração no projeto:
@@ -50,6 +54,4 @@ JSON
     "python.defaultInterpreterPath": ".venv/bin/python",
     "python.terminal.activateEnvironment": true
 }
-
-
 // end
