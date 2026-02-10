@@ -214,6 +214,29 @@ Git BASH
 [abre console]
 
 
+⭕ EXCLUIR O .DS_Store do main do Git
+  ⚠️ ao sincronizar o diretório da máquina com o GitHub
+     o arquivo pode entrar no circuíto de sincronização.
+
+     Para evitar, informamos ao Git para não considerá-lo
+     porém, não deletar o arquivo, pois o Mac precisa dele.
+
+🔶 remoção forçada (-f)
+
+git rm -f --cached .DS_Store
+git status
+
+git add .
+git commit -m "Faxina: removendo .DS_Store à força do rastreamento"
+git push origin main
+
+---
+Ao usar o --cached e ter o .DS_Store no seu .gitignore, você criou o cenário ideal:
+No seu Mac: O arquivo existe e o sistema funciona como deveria.
+No Git/GitHub: O arquivo não existe mais e o Git foi instruído a "fingir que não o vê", ignorando qualquer alteração futura nele.
+
+
+
 ⭕⭕⭕
 
 🔶 SITES
