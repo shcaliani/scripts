@@ -213,6 +213,11 @@ git bisect reset                                        | após correção retor
 Git BASH 
 [abre console]
 
+⭕ Alterar o .gitignore direto da linha de comando
+
+echo ".DS_Store" >> .gitignore
+echo ".venv/" >> .gitignore
+
 
 ⭕ EXCLUIR O .DS_Store do main do Git
   ⚠️ ao sincronizar o diretório da máquina com o GitHub
