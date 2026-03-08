@@ -33,4 +33,44 @@ time    | Na frente do comando, monitorar o tempo de execução nas dimensões [
 cut     | Corta o texto conforme definiçao [cut -c2]
 ps      | Lista os processos      [ps | cut -c7]
 
+⭕️ ALIAS
+
+Editar  | nano ~/.zshrc
+
+_Listagem
+alias ll="ls -lah"
+alias la="ls -A"
+alias l="ls -CF"
+
+_Navegação
+alias ..="cd .."          | sobe 1 nível
+alias ...="cd ../.."      | sobe 2 níveis
+alias ....="cd ../../.."  | sobe 3 níveis
+alias ~="cd ~"            | volta para home
+
+_Git
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -v"
+alias gca="git commit -v -a"
+alias gp="git push"
+alias gl="git log --oneline --graph --decorate --all"
+alias gco="git checkout"
+alias gb="git branch"
+
+_Processos e Sistema
+alias psg="ps aux | grep"   # busca processos
+:Para zsh
+alias topcpu='ps -Ao pid,pcpu,comm | sort -nrk 2 | head -20'
+alias topmem='ps -Ao pid,ppid,pcpu,pmem,comm | sort -nrk 4 | head -20'
+:Para linux
+alias topcpu="ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head"
+alias topmem="ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head"
+alias free="vm_stat"         # equivalente ao free no Linux
+
+_Visualização
+alias c="clear"           | limpa terminal
+alias h="history"         | mostra histórico
+alias j="jobs -l"         | processos em background
+
 # end
