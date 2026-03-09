@@ -50,18 +50,18 @@ diff    | Compara o conteúdo de dois arquivos ASCII
 
 Editar  | nano ~/.zshrc
 
-_Listagem
+📍Listagem
 alias ll="ls -lah"
 alias la="ls -A"
 alias l="ls -CF"
 
-_Navegação
+📍Navegação
 alias ..="cd .."          | sobe 1 nível
 alias ...="cd ../.."      | sobe 2 níveis
 alias ....="cd ../../.."  | sobe 3 níveis
 alias ~="cd ~"            | volta para home
 
-_Git
+📍Git
 alias gs="git status"
 alias ga="git add"
 alias gc="git commit -v"
@@ -71,7 +71,7 @@ alias gl="git log --oneline --graph --decorate --all"
 alias gco="git checkout"
 alias gb="git branch"
 
-_Processos e Sistema
+📍Processos e Sistema
 alias psg="ps aux | grep"   # busca processos
 :Para zsh
 alias topcpu='ps -Ao pid,pcpu,comm | sort -nrk 2 | head -20'
@@ -81,7 +81,7 @@ alias topcpu="ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head"
 alias topmem="ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head"
 alias free="vm_stat"         # equivalente ao free no Linux
 
-_Visualização
+📍Visualização
 alias c="clear"           | limpa terminal
 alias h="history"         | mostra histórico
 alias j="jobs -l"         | processos em background
