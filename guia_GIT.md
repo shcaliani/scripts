@@ -157,6 +157,7 @@ git commit -m "mensagem clara e objetiva"
 git commit -am "mensagem"       # add + commit (apenas arquivos já rastreados)
 git commit --amend -m "nova mensagem"  # corrige o último commit (não usar após push)
 git commit --amend --no-edit    # adiciona mudanças ao último commit sem alterar a mensagem
+git push                        # atualiza
 
 # Remover arquivos
 git rm arquivo.txt              # remove do disco e do rastreamento
