@@ -684,9 +684,7 @@ list(Path(".").glob("*.py"))      # lista arquivos .py
 ### 🔍 Auditoria Automatizada com `pip-audit`
 
 A melhor forma de automatizar a busca por pacotes maliciosos ou vulneráveis conhecidos no PyPI é utilizando a ferramenta **`pip-audit`**, mantida pela *Open Source Security Foundation* (OpenSSF). 
-
 Ela checa se os pacotes do seu ambiente local constam nos relatórios de vulnerabilidades e malwares conhecidos (**OSV** - *Open Source Vulnerabilities*).
-
 Instale a ferramenta no seu ambiente:
 
 ```bash
@@ -694,7 +692,7 @@ pip install pip-audit
 
 ---
 
-## 🔧 Complementar — pyenv
+### 🔧 Complementar — pyenv
 
 > Gerenciador de versões do Python por diretório. Evita alterar o Python do sistema operacional.
 
