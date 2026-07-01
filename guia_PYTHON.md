@@ -681,7 +681,7 @@ list(Path(".").glob("*.py"))      # lista arquivos .py
 | Corey Schafer — Python Tutorials | [youtube.com/@coreyms](https://www.youtube.com/@coreyms) |
 | Hashtag Treinamentos (PT-BR) | [youtube.com/@HashtagTreinamentos](https://www.youtube.com/@HashtagTreinamentos) |
 
-### 3. Auditoria Automatizada com `pip-audit`
+### 🔍 Auditoria Automatizada com `pip-audit`
 
 A melhor forma de automatizar a busca por pacotes maliciosos ou vulneráveis conhecidos no PyPI é utilizando a ferramenta **`pip-audit`**, mantida pela *Open Source Security Foundation* (OpenSSF). 
 
