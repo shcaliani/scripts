@@ -18,8 +18,8 @@ Coleção de scripts em **Python**, **Shell** e automações para **GitHub**, fo
 <div align="center">
 
 ```text
-       ▓▓▓▓▓▓▓▓
-     ▓▓▓▓▓▓▓▓▓▓▓▓
+      ▓▓▓▓▓▓▓▓
+    ▓▓▓▓▓▓▓▓▓▓▓▓
    ▓▓  ▓▓▓▓▓▓▓▓  ▓▓
    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
     ▓▓▓ ░░ ░░ ▓▓▓
